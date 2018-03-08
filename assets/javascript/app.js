@@ -34,7 +34,7 @@ $("#add-employee-btn").on("click", function () {
         startDate: startDate,
         monthlyRate: monthlyRate
     });
-    $(".form-control").empty();
+    $(".form-control").val("");
 })
 
 //firebase watcher + initial loader
